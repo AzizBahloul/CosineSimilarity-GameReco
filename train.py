@@ -36,7 +36,7 @@ plt.title("Feature Space Visualization")
 plt.show()
 
 # Save the encoder, scaler, tfidf, and similarity matrix
-pickle.dump(encoder, open('encoder.pkl', 'wb'))
-pickle.dump(scaler, open('scaler.pkl', 'wb'))
-pickle.dump(tfidf, open('tfidf.pkl', 'wb'))
-pickle.dump(similarity_matrix, open('similarity_matrix.pkl', 'wb'))
+pickle.dump(encoder, open('models\encoder.pkl', 'wb'))
+pickle.dump(scaler, open('models\scaler.pkl', 'wb'))
+pickle.dump(tfidf, open('models\ tfidf.pkl', 'wb'))
+pickle.dump(similarity_matrix, open('models\similarity_matrix.pkl', 'wb'))
